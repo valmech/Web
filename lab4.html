@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratory work 4</title>
+    <link rel="stylesheet" href="lab4.css">
+</head>
+<body>
+    <div class="conteiner">
+        <h1>Вітаю в кінотеатрі</h1>
+    </div> 
+
+    <button id="atmosfere" class="btn"> Змінити атмосферу </button>
+
+    <button id="openModalBtn" class="btn success">Відкрити модальне вікно для реєстрації</button>
+    <div id="greetingResult"></div>
+    <div id="modalOverlay" class="modal-overlay hidden">
+        <div class="modal">
+            <input type="text" id="userNameInput" placeholder="Введіть ім'я">
+            <button id="saveNameBtn">Підтвердити</button>
+            <button id="closeModalBtn">Закрити</button>
+        </div>
+    </div>
+
+    <div class="poster">
+        <img id="moviePost" src="popcorn.jfif" alt="Posters" class="poster-img">
+
+        <h2 id="movieTitle">Назва: Воно</h2>
+        <p id="Genre"> Жанр: Жахи </p>
+
+            <div class="controls">
+                <button id="actionBtn" class="btn"> Купити квиток </button>
+            </div>
+    </div>
+
+    <button id="themeToggle" class="btn">Змінити тему</button>
+
+<script src="script.js"></script>
+</body>
+</html>

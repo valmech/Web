@@ -1,0 +1,126 @@
+body {
+    background-color: #e6f7ff; 
+    font-family:  sans-serif ; 
+    color: #333333; 
+    margin: 0;
+    padding: 0;
+}
+
+#fullwrap {
+    width: 1000px;
+    margin: 0 auto; 
+    border: 2px solid black; 
+}
+
+header, footer {
+    background-color: rgb(72, 116, 174); 
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+header {
+    height: 150px;
+}
+
+footer {
+    height: 50px;
+}
+
+.content {
+    display: flex;
+}
+
+main {
+    flex: 3;
+    height: 450px; 
+    padding: 20px;
+    background-color: white; 
+}
+
+#sidebar {
+    flex: 1; 
+    background-color: #8799d4; 
+    padding: 15px;
+    border-left: 1px solid #ccc;
+}
+
+#sidebar a:link {
+    color:aliceblue
+}
+
+#sidebar a:hover {
+    color: #455eb0;
+}
+
+#sidebar a:visited {
+    color:rgb(34, 121, 171)
+}
+
+.history {
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: large;
+}
+
+.site {
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: large;
+}
+
+.help {
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: large;
+}
+
+#logo {
+    height: 150px;
+    width: 150px;
+    padding-right: 1000px;
+}
+
+.nameFace h1 {
+    margin-right: 450px;
+    margin-top: -105px;
+}
+
+.pib h2 {
+    margin: 10px;
+    margin-right: 650px;
+    font-size: 20px;
+}
+
+.mark-class {
+    float: left; 
+    width: 200px;
+    margin-right: 15px; 
+    border: 1px solid #ccc;
+    margin-top:10px ;
+}
+
+.meta-class {
+    float: bottom; 
+    width: 200px;
+    margin-left: 120px; 
+    border: 1px solid #ccc;
+    margin-top:-60px ;
+}
+
+.text-mark {
+    line-height: 1.6;
+    text-align: justify;
+    margin-top: -10px;
+}
+
+.text-history {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.text-meta {
+    line-height: 1.6;
+    text-align: justify;
+    margin-top: 70px;
+}
